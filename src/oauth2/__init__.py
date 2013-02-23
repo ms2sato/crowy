@@ -29,6 +29,8 @@ import random
 import urlparse
 import hmac
 import binascii
+import sys
+sys.modules['ssl'] = None
 import httplib2
 
 try:
